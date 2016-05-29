@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Don't break the chain extension",
+    "description": "This extension keeps people motivated and reminds them not to break the chain on habits",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "",
+        "default_popup": ""
+    },
+
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com"
+    ]
+}
