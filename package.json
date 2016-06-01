@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/ttymed/dont-break-the-chain#readme",
   "devDependencies": {
-    "ava": "^0.15.1"
+    "ava": "^0.15.1",
+    "jsdom": "^9.2.1"
   },
-    "ava": {
-        "failFast": true,
-        "tap": true
-    }
+  "ava": {
+    "require": [
+      "./test/helpers/setup-browser-env.js"
+    ]
+  }
 }

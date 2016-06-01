@@ -1,14 +1,16 @@
 import test from 'ava'
 
 test('take input from an input element and map it to an object', t => {
+    const document = global.window.document
+    const input = document.createElement('div')
+    document.body.appendChild(input)
+})
+
+test('habit added to object', t => {
     
 })
 
-test('habit added to object' t => {
-    
-})
-
-test('habit deleted from object' t => {
+test('habit deleted from object', t => {
     
 })
 
