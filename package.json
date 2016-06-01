@@ -1,0 +1,27 @@
+{
+  "name": "dont-break-the-streak-chrome-extension",
+  "version": "1.0.0",
+  "description": "Motivated by a blog post from Free Code Camp's Quincy and my personal experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttymed/dont-break-the-chain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttymed/dont-break-the-chain/issues"
+  },
+  "homepage": "https://github.com/ttymed/dont-break-the-chain#readme",
+  "devDependencies": {
+    "ava": "^0.15.1"
+  },
+    "ava": {
+        "failFast": true,
+        "tap": true
+    }
+}
