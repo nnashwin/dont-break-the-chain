@@ -28,7 +28,8 @@ window.onload = () => {
         let input = document.getElementsByName('chain-name')[0]
         let saveButton = document.getElementsByName('chain-save')[0]
         saveButton.addEventListener('click', (() => {
-            console.log(input.value)
+            mapInputToObject(input, localStorage, 'habit')
+            console.log(localStorage)
         }))
         // let counterDiv = document.getElementById('counter')
         // let body = document.getElementsByTagName('body')[0]
@@ -57,3 +58,10 @@ window.onload = () => {
         }))
     }
 }
+
+
+function mapInputToObject (input, object, keyName) {
+    return object[keyName] = input.value
+}
+
+module.exports = { mapInputToObject: mapInputToObject }
